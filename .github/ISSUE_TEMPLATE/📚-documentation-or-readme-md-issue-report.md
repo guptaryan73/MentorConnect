@@ -1,8 +1,8 @@
 ---
-name: "\U0001F41E Bug Report"
-about: Report an issue to help the project improve.
-title: "[BUG]"
-labels: bug
+name: "\U0001F4DA Documentation or README.md Issue Report"
+about: Report an issue in the project's documentation or README.md file.
+title: "[Docs]"
+labels: documentation
 assignees: ''
 
 ---
@@ -22,20 +22,15 @@ Detail the steps taken to reproduce this error, and whether this issue can be re
 3. Scroll down to '....'
 4. See error
 
-## **Expected Behaviour**
-Provide a clear and concise description of what you expected to happen.
-
 ## **Screenshots or Videos**
 If applicable, add screenshots or videos to help explain your problem.
 
-## **Desktop (please complete the following information):**
- - OS: [i.e. iOS]
- - Browser [i.e. Chrome, Safari]
+## **Proposed Solution**
+Provide a clear and concise description of the solution and what you want to happen.
 
-## **Smartphone (please complete the following information):**
- - Device: [i.e. iPhone 6]
- - OS: [i.e. iOS 8.1]
- - Browser [i.e. Safari]
+*
 
 ## **Additional context**
-Other libraries that might be involved, or any other relevant information you think would be useful.
+Add any other context or additional information about the problem here.
+
+*
