@@ -24,6 +24,7 @@ _Check out the live project [_here_](https://mymind.towaquimbayo.com/)._
   * [Live Chat Session](#live-chat-session)
   * [Easter Egg](#easter-egg)
 * [Awards](#awards)
+* [Contributing](#contributing)
 
 ## Screenshots
 
@@ -166,3 +167,9 @@ For those who love surprises, we have included a hidden Easter Egg feature. On t
 Our project, MyMind, was honored with the "Best Design" and "Best Teamwork" awards out of 219 students for its innovative approach to virtual therapy. MyMind offers virtual therapy sessions, ensuring both patients and therapists can comfortably engage from their homes, and students can attend to their mental health within their busy schedules. This recognition reflects our dedication to user-centered design and effective teamwork throughout the development process.
 
 For more details, you can read the [full article here](https://commons.bcit.ca/news/2022/06/computing-students-develop-apps-to-make-life-better/).
+
+# Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are __extremely appreciated__.
+
+For more details, please refer to [CONTRIBUTING.md](CONTRIBUTING.md)
