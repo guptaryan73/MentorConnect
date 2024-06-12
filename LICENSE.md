@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 Towa Quimbayo, Pedro Sales Muniz, Alex Gibbison, Kian Azizkhani
+Copyright (c) 2024 Towa Quimbayo, Pedro Sales Muniz, Alex Gibbison, Kian Azizkhani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
