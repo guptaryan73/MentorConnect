@@ -172,4 +172,4 @@ For more details, you can read the [full article here](https://commons.bcit.ca/n
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are __extremely appreciated__.
 
-For more details, please refer to [CONTRIBUTING.md](CONTRIBUTING.md)
+For more details, please refer to [CONTRIBUTING.md](CONTRIBUTING.md).
