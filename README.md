@@ -79,13 +79,13 @@ _Check out the live project [_here_](https://mymind.towaquimbayo.com/)._
 
 ### Installation
 
-1. Install latest npm package version.
+1. Install the latest npm package version.
 
   ```sh
   npm install npm@latest -g
   ```
 
-2. Clone the repository to local machine.
+2. Clone the repository to your local machine.
 
   ```sh
   git clone https://github.com/towaquimbayo/MyMind.git
@@ -106,7 +106,7 @@ _Check out the live project [_here_](https://mymind.towaquimbayo.com/)._
 
 For the project to run correctly, environment variables are required. Rename the `.env.example` to `.env`.
 
-1. Sign up for a MongoDB Atlas account at <https://www.mongodb.com/cloud/atlas/register>. Then create a database Cluster and connect your project to that Cluster by clicking on the `Connect`, select the `Connect To Your Application` option and copy the Database `URI` string as your `DATABASE_URL`. Finally, replace the `username` and `password` fields in the URI string with your database credentials.
+1. Sign up for a MongoDB Atlas account at <https://www.mongodb.com/cloud/atlas/register>. Then create a database Cluster and connect your project to that Cluster by clicking on the `Connect`, selecting the `Connect To Your Application` option and copying the Database `URI` string as your `DATABASE_URL`. Finally, replace the `username` and `password` fields in the URI string with your database credentials.
 2. Either enter your email account credentials for the Nodemailer transporter credentials or create a Gmail account to generate an App Password by following the instructions at <https://medium.com/@y.mehnati_49486/how-to-send-an-email-from-your-gmail-account-with-nodemailer-837bf09a7628>.
 
 </details>
@@ -136,7 +136,7 @@ Our user account management system allows users to create and manage their accou
 
 Our Admin Dashboard provides administrators with comprehensive tools to manage all users registered on the application. This feature ensures that administrators can maintain control over the platform's user base and perform various administrative tasks efficiently.
 
-* __User Management__: View all users in a table format on the Admin Dashboard page. Admininstrators can also edit patient and therapist information, create new users including adminstrators, and delete user accounts if necessary.
+* __User Management__: View all users in a table format on the Admin Dashboard page. Administrators can also edit patient and therapist information, create new users including administrators, and delete user accounts if necessary.
 * __Search and Filter__: Search users by keywords and filter the table accordingly.
 * __Sorting Table__: Sort the user table by clicking on headings such as email or username in ascending or descending order.
 
@@ -160,11 +160,11 @@ We enable real-time communication between therapists and patients using Socket.i
 
 ### Easter Egg
 
-For those who love surprises, we have included a hidden Easter Egg feature. On the signup page, enter "batman" in the username field and turn up the volume for the best experience. Get ready to be ... _**mindblown 🦇**_
+For those who love surprises, we have included a hidden Easter Egg feature. On the signup page, enter `batman` in the username field and turn up the volume for the best experience. Get ready to be ... _**mindblown 🦇**_
 
 ## Awards
 
-Our project, MyMind, was honored with the "Best Design" and "Best Teamwork" awards out of 219 students for its innovative approach to virtual therapy. MyMind offers virtual therapy sessions, ensuring both patients and therapists can comfortably engage from their homes, and students can attend to their mental health within their busy schedules. This recognition reflects our dedication to user-centered design and effective teamwork throughout the development process.
+Our project, MyMind, was honoured with the "Best Design" and "Best Teamwork" awards out of 219 students for its innovative approach to virtual therapy. MyMind offers virtual therapy sessions, ensuring both patients and therapists can comfortably engage from their homes, and students can attend to their mental health within their busy schedules. This recognition reflects our dedication to user-centred design and effective teamwork throughout the development process.
 
 For more details, you can read the [full article here](https://commons.bcit.ca/news/2022/06/computing-students-develop-apps-to-make-life-better/).
 
