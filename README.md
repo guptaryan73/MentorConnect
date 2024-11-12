@@ -28,7 +28,7 @@ MentorConnect is an innovative platform designed to bridge the gap between mento
 |:--:|:--:|
 | _Login Page_ | _Home Page_ |
 | ![Mentors Page](screenshots/therapists.png) | ![Checkout Page](screenshots/checkout.png) |
-| _Therapists Page_ | _Checkout Page_ |
+| _Mentors Page_ | _Checkout Page_ |
 | ![Profile Page](screenshots/profile.png) | ![Live Chat Popup](screenshots/chat-session.png) |
 | _Profile Page_ | _Live Chat Popup_ |
 
@@ -145,7 +145,3 @@ We enable real-time communication between mentors and mentees using Socket.io. T
 * __Real-Time Communication__: Bi-directional private communication for live mentor chat sessions.
 * __Contact Information__: Both mentee and mentor can access each other’s phone numbers during the live chat session for private communication via text or phone call.
 * __Session Timer__: Display of remaining session time in real-time, with the chat ending automatically when time expires.
-
-### Easter Egg
-
-For those who love surprises, we have included a hidden Easter Egg feature. On the signup page, enter `batman` in the username field and turn up the volume for the best experience. Get ready to be ... _**mindblown 🦇**_
