@@ -18,7 +18,6 @@ MentorConnect is an innovative platform designed to bridge the gap between mento
   * [Admin Dashboard](#admin-dashboard)
   * [Shopping Cart System](#therapist-shopping-cart-system)
   * [Live Chat Session](#live-chat-session)
-  * [Easter Egg](#easter-egg)
 * [Awards](#awards)
 * [Contributing](#contributing)
 
