@@ -1,11 +1,7 @@
-<img align="right" alt="Visitor Badge" src="https://visitor-badge.laobi.icu/badge?page_id=towaquimbayo.MyMind" />
+# MentorConnect
 
-# MyMind
+MentorConnect is an innovative platform designed to bridge the gap between mentors and mentees, providing a streamlined, user-friendly experience to facilitate professional growth, skill development, and personal mentoring. The app enables users to easily connect with industry experts, gain valuable insights, and receive guidance tailored to their specific career goals. With features like profile matching, session scheduling, and live mentoring sessions, MentorConnect empowers users to achieve their full potential by making mentorship accessible, effective, and personalized.
 
-![MyMind Thumbnail](screenshots/mymind-thumbnail.jpg)
-A mental health-focused web application, where patients can purchase therapy sessions offered by therapists. Scalability to update their session details and perform a live chat session with their patients when they purchase a session in an e-commerce-based transaction process.
-
-_Check out the live project [_here_](https://mymind.towaquimbayo.com/)._
 
 ## Table of Contents
 
@@ -36,14 +32,6 @@ _Check out the live project [_here_](https://mymind.towaquimbayo.com/)._
 | ![Profile Page](screenshots/profile.png) | ![Live Chat Popup](screenshots/chat-session.png) |
 | _Profile Page_ | _Live Chat Popup_ |
 
-## Acknowledgements
-
-* Towa Quimbayo [GitHub](https://github.com/towaquimbayo) [LinkedIn](https://www.linkedin.com/in/towa-quimbayo/)
-* Pedro Sales-Muniz [GitHub](https://github.com/salesp07) [LinkedIn](https://www.linkedin.com/in/pedro-sales-muniz/)
-* Kian Azizkhani [GitHub](https://github.com/KianAzizkhani) [LinkedIn](https://www.linkedin.com/in/kian-azizkhani/)
-* Alex Gibbison [GitHub](https://github.com/Soultey) [LinkedIn](https://www.linkedin.com/in/alexander-gibbison-786683153/)
-
-[![Contributors](https://contrib.rocks/image?repo=towaquimbayo/MyMind)](https://github.com/towaquimbayo/MyMind/graphs/contributors)
 
 ## Technologies
 
@@ -161,15 +149,3 @@ We enable real-time communication between therapists and patients using Socket.i
 ### Easter Egg
 
 For those who love surprises, we have included a hidden Easter Egg feature. On the signup page, enter `batman` in the username field and turn up the volume for the best experience. Get ready to be ... _**mindblown 🦇**_
-
-## Awards
-
-Our project, MyMind, was honoured with the "Best Design" and "Best Teamwork" awards out of 219 students for its innovative approach to virtual therapy. MyMind offers virtual therapy sessions, ensuring both patients and therapists can comfortably engage from their homes, and students can attend to their mental health within their busy schedules. This recognition reflects our dedication to user-centred design and effective teamwork throughout the development process.
-
-For more details, you can read the [full article here](https://commons.bcit.ca/news/2022/06/computing-students-develop-apps-to-make-life-better/).
-
-## Contributing
-
-Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are __extremely appreciated__.
-
-For more details, please refer to [CONTRIBUTING.md](CONTRIBUTING.md).
