@@ -16,7 +16,7 @@ MentorConnect is an innovative platform designed to bridge the gap between mento
 * [Features](#features)
   * [User Account Management](#user-account-management)
   * [Admin Dashboard](#admin-dashboard)
-  * [Therapist Shopping Cart System](#therapist-shopping-cart-system)
+  * [Shopping Cart System](#therapist-shopping-cart-system)
   * [Live Chat Session](#live-chat-session)
   * [Easter Egg](#easter-egg)
 * [Awards](#awards)
@@ -27,7 +27,7 @@ MentorConnect is an innovative platform designed to bridge the gap between mento
 | ![Login Page](screenshots/login.png) | ![Home Page](screenshots/home.png) |
 |:--:|:--:|
 | _Login Page_ | _Home Page_ |
-| ![Therapists Page](screenshots/therapists.png) | ![Checkout Page](screenshots/checkout.png) |
+| ![Mentors Page](screenshots/therapists.png) | ![Checkout Page](screenshots/checkout.png) |
 | _Therapists Page_ | _Checkout Page_ |
 | ![Profile Page](screenshots/profile.png) | ![Live Chat Popup](screenshots/chat-session.png) |
 | _Profile Page_ | _Live Chat Popup_ |
@@ -114,9 +114,9 @@ Execute `npm start` to run locally in development mode or production mode.
 
 ### User Account Management
 
-Our user account management system allows users to create and manage their accounts securely with ease. Whether they are therapists or patients, users have control over their profile information.
+Our user account management system allows users to create and manage their accounts securely with ease. Whether they are mentors or mentees, users have control over their profile information.
 
-* __Account Creation__: Users can create therapist or patient accounts. Therapists are required to enter additional information regarding their session cost and professional experience.
+* __Account Creation__: Users can create mentor or mentee accounts. Mentors are required to enter additional information regarding their session cost and professional experience.
 * __Account Editing__: Users can edit their profile information, including profile picture, name, email, and phone number.
 * __Account Deletion__: Users have the option to delete their accounts.
 
@@ -124,26 +124,26 @@ Our user account management system allows users to create and manage their accou
 
 Our Admin Dashboard provides administrators with comprehensive tools to manage all users registered on the application. This feature ensures that administrators can maintain control over the platform's user base and perform various administrative tasks efficiently.
 
-* __User Management__: View all users in a table format on the Admin Dashboard page. Administrators can also edit patient and therapist information, create new users including administrators, and delete user accounts if necessary.
+* __User Management__: View all users in a table format on the Admin Dashboard page. Administrators can also edit mentee and mentor information, create new users including administrators, and delete user accounts if necessary.
 * __Search and Filter__: Search users by keywords and filter the table accordingly.
 * __Sorting Table__: Sort the user table by clicking on headings such as email or username in ascending or descending order.
 
-### Therapist Shopping Cart System
+### Shopping Cart System
 
-Our application features a therapist shopping cart system, allowing users to browse and "purchase" live chat sessions with therapists. Although a payment integration system is not yet implemented, patients can simulate the process of adding therapists to their cart and checking out.
+Our application features a mentor shopping cart system, allowing users to browse and "purchase" live chat sessions with mentors. Although a payment integration system is not yet implemented, mentees can simulate the process of adding mentors to their cart and checking out.
 
-* __Therapist Listings__: Any user can view a list of available therapists for live chat sessions.
-* __Shopping Cart__: Registered patients can add or remove therapists to their shopping cart and proceed to the Checkout page. The Checkout cart page also displays the total price including tax for the cart items.
-* __Invoice Generation__: Patients can print an invoice PDF of their order from the Checkout page.
-* __Order Confirmation__: After confirming their cart and checking out, patients are navigated to a Thank You page and receive an email confirmation. They can start a live chat session with the ordered therapist immediately.
-* __Pricing Plans__: 4 different pricing plans are available for therapist sessions: Trial, 1 Month, 3 Months, and 1 Year (mocked up to reasonable timeframes in minutes).
+* __Therapist Listings__: Any user can view a list of available mentors for live chat sessions.
+* __Shopping Cart__: Registered mentees can add or remove mentors to their shopping cart and proceed to the Checkout page. The Checkout cart page also displays the total price including tax for the cart items.
+* __Invoice Generation__: Mentees can print an invoice PDF of their order from the Checkout page.
+* __Order Confirmation__: After confirming their cart and checking out, mentees are navigated to a Thank You page and receive an email confirmation. They can start a live chat session with the ordered mentor immediately.
+* __Pricing Plans__: 4 different pricing plans are available for mentor sessions: Trial, 1 Month, 3 Months, and 1 Year (mocked up to reasonable timeframes in minutes).
 
 ### Live Chat Session
 
-We enable real-time communication between therapists and patients using Socket.io. This feature allows for seamless live chat sessions, enhancing the user experience.
+We enable real-time communication between mentors and mentees using Socket.io. This feature allows for seamless live chat sessions, enhancing the user experience.
 
-* __Real-Time Communication__: Bi-directional private communication for live therapist chat sessions.
-* __Contact Information__: Both patient and therapist can access each other’s phone numbers during the live chat session for private communication via text or phone call.
+* __Real-Time Communication__: Bi-directional private communication for live mentor chat sessions.
+* __Contact Information__: Both mentee and mentor can access each other’s phone numbers during the live chat session for private communication via text or phone call.
 * __Session Timer__: Display of remaining session time in real-time, with the chat ending automatically when time expires.
 
 ### Easter Egg
