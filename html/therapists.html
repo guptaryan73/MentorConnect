@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="COMP 2800 - MyMind" />
 
-    <title>MyMind - Therapists</title>
+    <title>MyMind - Mentors</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../images/logo.svg" />
@@ -36,13 +36,13 @@
         <div id="navPlaceHolder"></div>
         <header id="headMobile">
             <nav class="nav-container">
-                <p id="footerNav">MyMind 2022 © COMP 2800</p>
+                <p id="footerNav">MentorConnect 2024 © COMP 2800</p>
 
                 <div class="nav-menu" id="nav-menu">
                     <div id="logoMob">
                         <a href="/">
                             <img src="../images/logo.svg" alt="Logo">
-                            <h2>MyMind</h2>
+                            <h2>MentorConnect</h2>
                         </a>
                     </div>
 
@@ -56,7 +56,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="/therapists" class="nav-link">
-                                <i class="fa-solid fa-heart-pulse nav-icon"></i>Therapists
+                                <i class="fa-solid fa-heart-pulse nav-icon"></i>Mentors
                             </a>
                         </li>
                         <li class="nav-item isPatient">
@@ -81,7 +81,7 @@
                         </li>
                         <li class="nav-item isTherapist">
                             <a href="/my-patients" class="nav-link">
-                                <i class="bi bi-people nav-icon"></i>My Patients
+                                <i class="bi bi-people nav-icon"></i>My Mentee
                             </a>
                         </li>
                         <li class="nav-item isLoggedIn">
@@ -118,14 +118,14 @@
         <div id="bannerTherapist">
             <div id="overlay">
                 <div id="therapistHeader">
-                    <h2>Therapy Sessions</h2>
+                    <h2>Mentor Sessions</h2>
                 </div>
             </div>
         </div>
 
         <div id="therapistListSec">
-            <h2>Available Therapists</h2>
-            <h4>Choose a therapy session to get started!</h4>
+            <h2>Available Mentors</h2>
+            <h4>Choose a Mentor session to get started!</h4>
             <div id="therapistList"></div>
         </div>
 
@@ -137,7 +137,7 @@
                     <i class="bi bi-bag-check-fill"></i>
                 </div>
                 <h2>Cart is full!</h2>
-                <p>You already have a therapist added to your cart, empty your cart at <a href="/checkout">Checkout</a>
+                <p>You already have a Mentor added to your cart, empty your cart at <a href="/checkout">Checkout</a>
                     to proceed.</p>
             </div>
         </div>
@@ -150,7 +150,7 @@
                     <i class="bi bi-exclamation-triangle-fill"></i>
                 </div>
                 <h2>Hold on there!</h2>
-                <p>You currently have an active session with your therapist, <span id="therapistName"></span>
+                <p>You currently have an active session with your Mentor, <span id="therapistName"></span>
                     Your session expires on <span id="expireDate"></span> at <span id="expireTime"></span></p>
             </div>
         </div>
@@ -160,8 +160,8 @@
             <div id="modalContent">
                 <div id="authorizedModalMessage">
                     <h2>Not authorized to purchase!</h2>
-                    <p>To purchase a therapist, please <a href="/login">Login</a> or <a href="/sign-up">Sign Up</a> as a
-                        patient.</p>
+                    <p>To purchase a Mentor, please <a href="/login">Login</a> or <a href="/sign-up">Sign Up</a> as a
+                        Mentee.</p>
                 </div>
                 <i class="fa-solid fa-xmark" id="closeAuthorized"></i>
             </div>
@@ -172,7 +172,7 @@
             <div id="modalContent">
                 <div id="chatExpiredModalMessage">
                     <h2>Your session has expired!</h2>
-                    <p>Purchase a new session at <a href="/therapists">Therapists</a> to continue your journey.</p>
+                    <p>Purchase a new session at <a href="/therapists">Mentors</a> to continue your journey.</p>
                 </div>
                 <i class="fa-solid fa-xmark" id="closeChatExpired"></i>
             </div>
